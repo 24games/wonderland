@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
@@ -12,12 +14,15 @@ export default function Home() {
       {/* DOBRA 1: HERO SECTION - Tela Cheia */}
       <section className="relative h-[100dvh] w-full overflow-hidden">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('/assets/background%20lp%20wonderland%20certo.webp')",
-          }}
-        >
+        <div className="absolute inset-0">
+          <Image
+            src="/assets/background lp wonderland certo.webp"
+            alt="Wonderland Background"
+            fill
+            className="object-cover"
+            priority
+            quality={90}
+          />
           {/* Overlay escuro para melhorar contraste do botão */}
           <div className="absolute inset-0 bg-black/30"></div>
           {/* Gradiente na parte inferior para transição suave */}
