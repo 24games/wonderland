@@ -15,7 +15,7 @@ export default function Home() {
       <section className="relative h-[100dvh] w-full overflow-hidden">
         {/* Background Image */}
         <Image
-          src="/assets/hero-bg.webp"
+          src="/assets/hero-bg.jpg"
           alt="Background Cassino"
           fill
           priority
