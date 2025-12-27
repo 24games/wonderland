@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
