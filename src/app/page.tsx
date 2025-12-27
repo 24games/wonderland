@@ -25,12 +25,12 @@ export default function Home() {
         </div>
 
         {/* Botão CTA na transição roxo/preto */}
-        <div className="absolute bottom-0 left-0 right-0 z-10 flex w-full items-end justify-center px-4 pb-8">
+        <div className="absolute bottom-[650px] left-0 right-0 z-10 flex w-full items-end justify-center px-4">
           <a
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full max-w-lg rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-8 py-6 text-center text-2xl font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-10 sm:py-7 sm:text-3xl"
+            className="w-full max-w-lg rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-8 py-12 text-center text-2xl font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-10 sm:py-14 sm:text-3xl"
           >
             QUIERO ENTRAR AHORA
           </a>
