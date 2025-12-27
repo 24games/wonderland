@@ -22,15 +22,14 @@ export default function Home() {
 
         {/* Botão CTA Centralizado */}
         <div className="relative z-10 flex h-full w-full items-center justify-center px-4">
-          <button
-            className="w-3/4 max-w-sm rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 py-5 text-lg font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-8 sm:py-6 sm:text-xl"
-            onClick={() => {
-              // Ação do botão - adicionar link aqui
-              console.log("QUIERO ENTRAR AHORA");
-            }}
+          <a
+            href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-3/4 max-w-sm rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 py-5 text-center text-lg font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-8 sm:py-6 sm:text-xl"
           >
             QUIERO ENTRAR AHORA
-          </button>
+          </a>
         </div>
       </section>
 

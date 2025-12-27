@@ -46,15 +46,11 @@ export default function TutorialPage() {
 
         {/* Container do Vídeo */}
         <div className="mb-8 w-full max-w-md">
-          <vturb-smartplayer
-            id="vid-694c2c46b6c0dcc4672399d4"
-            style={{
-              display: "block",
-              margin: "0 auto",
-              width: "100%",
-              maxWidth: "400px",
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<vturb-smartplayer id="vid-694c2c46b6c0dcc4672399d4" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>`,
             }}
-          ></vturb-smartplayer>
+          />
         </div>
 
         {/* Botões */}
