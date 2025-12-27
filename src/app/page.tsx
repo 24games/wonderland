@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
@@ -12,17 +14,18 @@ export default function Home() {
       {/* DOBRA 1: HERO SECTION - Tela Cheia */}
       <section className="relative h-[100dvh] w-full overflow-hidden">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('/assets/hero-bg.webp')",
-          }}
-        >
-          {/* Overlay escuro para melhorar contraste do botão */}
-          <div className="absolute inset-0 bg-black/30"></div>
-          {/* Gradiente na parte inferior para transição suave */}
-          <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
-        </div>
+        <Image
+          src="/assets/hero-bg.webp"
+          alt="Background Cassino"
+          fill
+          priority
+          className="object-cover object-center z-0"
+          quality={100}
+        />
+        {/* Overlay escuro para melhorar contraste do botão */}
+        <div className="absolute inset-0 bg-black/30 z-[1]"></div>
+        {/* Gradiente na parte inferior para transição suave */}
+        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-b from-transparent via-black/50 to-black z-[1]"></div>
 
         {/* Botão CTA na transição roxo/preto */}
         <div className="absolute bottom-[185px] left-0 right-0 z-10 flex w-full items-center justify-center px-6">
