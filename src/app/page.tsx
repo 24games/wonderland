@@ -44,9 +44,9 @@ export default function Home() {
       </section>
 
       {/* DOBRA 2: PROVA SOCIAL - Carrossel */}
-      <section className="min-h-screen w-full bg-gradient-to-b from-[#2a0e45] to-[#000000] py-10">
+      <section className="min-h-screen w-full bg-gradient-to-b from-[#2a0e45] to-[#000000] pt-16 pb-10">
         {/* Headline */}
-        <h2 className="mt-24 mb-12 text-center text-3xl font-bold text-white sm:mt-28 sm:mb-16 md:text-4xl">
+        <h2 className="mt-8 mb-16 text-center text-3xl font-bold text-white sm:mt-12 sm:mb-20 md:text-4xl">
           Resultados de los miembros
         </h2>
 
