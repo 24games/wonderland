@@ -15,7 +15,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/assets/background%20lp%20wonderland%20certo.webp')",
+            backgroundImage: `url('/assets/${encodeURIComponent('background lp wonderland certo.webp')}')`,
           }}
         >
           {/* Overlay escuro para melhorar contraste do botão */}
