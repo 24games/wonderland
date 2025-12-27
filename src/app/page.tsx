@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         {/* Botão CTA na transição roxo/preto */}
-        <div className="absolute bottom-[270px] left-0 right-0 z-10 flex w-full items-center justify-center px-6">
+        <div className="absolute bottom-[235px] left-0 right-0 z-10 flex w-full items-center justify-center px-6">
           <a
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
@@ -40,7 +40,7 @@ export default function Home() {
       {/* DOBRA 2: PROVA SOCIAL - Carrossel */}
       <section className="min-h-screen w-full bg-gradient-to-b from-[#2a0e45] to-[#000000] py-10">
         {/* Headline */}
-        <h2 className="mb-8 text-center text-3xl font-bold text-white md:text-4xl">
+        <h2 className="mt-16 mb-8 text-center text-3xl font-bold text-white sm:mt-20 md:text-4xl">
           Resultados de los miembros
         </h2>
 
