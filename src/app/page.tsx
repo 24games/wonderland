@@ -4,7 +4,7 @@ export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
     "/assets/prints/print1certo.jpeg",
-    "/assets/prints/print2.jpg",
+    "/assets/prints/print2.jpeg",
   ];
 
   return (
