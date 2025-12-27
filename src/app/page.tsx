@@ -15,7 +15,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/assets/background%20lp%20wonderland.webp')",
+            backgroundImage: "url('/assets/background%20lp%20wonderland%20certo.webp')",
           }}
         >
           {/* Overlay escuro para melhorar contraste do botão */}
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         {/* Botão CTA na transição roxo/preto */}
-        <div className="absolute bottom-[205px] left-0 right-0 z-10 flex w-full items-center justify-center px-6">
+        <div className="absolute bottom-[185px] left-0 right-0 z-10 flex w-full items-center justify-center px-6">
           <a
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
