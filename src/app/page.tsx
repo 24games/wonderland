@@ -40,7 +40,7 @@ export default function Home() {
       {/* DOBRA 2: PROVA SOCIAL - Carrossel */}
       <section className="min-h-screen w-full bg-gradient-to-b from-[#2a0e45] to-[#000000] py-10">
         {/* Headline */}
-        <h2 className="mt-16 mb-8 text-center text-3xl font-bold text-white sm:mt-20 md:text-4xl">
+        <h2 className="mt-20 mb-8 text-center text-3xl font-bold text-white sm:mt-24 md:text-4xl">
           Resultados de los miembros
         </h2>
 
@@ -49,16 +49,16 @@ export default function Home() {
           {winImages.map((imagePath, index) => (
             <div
               key={index}
-              className="relative h-56 w-72 flex-shrink-0 snap-center rounded-xl border-2 border-yellow-500/50 shadow-lg shadow-purple-500/20 transition-transform duration-300 active:scale-95 sm:h-64 sm:w-80 sm:hover:scale-105"
+              className="relative w-64 aspect-[4/5] flex-shrink-0 snap-center rounded-xl border-2 border-yellow-500/50 shadow-lg shadow-purple-500/20 transition-transform duration-300 active:scale-95 sm:w-80 sm:hover:scale-105"
             >
               <img
                 src={imagePath}
                 alt={`Ganancia ${index + 1}`}
-                className="h-full w-full rounded-xl object-cover"
+                className="h-full w-full rounded-xl object-contain"
                 onError={(e) => {
                   // Placeholder caso a imagem não exista
                   const target = e.target as HTMLImageElement;
-                  target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='256'%3E%3Crect fill='%232a0e45' width='320' height='256'/%3E%3Ctext x='50%25' y='50%25' font-size='18' fill='%23ffffff' text-anchor='middle' dy='.3em'%3EImagen ${index + 1}%3C/text%3E%3C/svg%3E`;
+                  target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='400'%3E%3Crect fill='%232a0e45' width='320' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='18' fill='%23ffffff' text-anchor='middle' dy='.3em'%3EImagen ${index + 1}%3C/text%3E%3C/svg%3E`;
                 }}
               />
               {/* Brilho dourado sutil */}

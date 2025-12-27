@@ -45,7 +45,7 @@ export default function TutorialPage() {
         </h1>
 
         {/* Container do Vídeo */}
-        <div className="mb-8 w-full max-w-md">
+        <div className="mb-10 w-full max-w-md">
           <div
             dangerouslySetInnerHTML={{
               __html: `<vturb-smartplayer id="vid-694c2c46b6c0dcc4672399d4" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>`,
@@ -54,13 +54,13 @@ export default function TutorialPage() {
         </div>
 
         {/* Botões */}
-        <div className="flex w-full max-w-md flex-col gap-4">
+        <div className="flex w-full max-w-md flex-col gap-6">
           {/* Botão 1: Registrar na casa */}
           <a
             href="https://tinyurl.com/minutoswonderland"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 py-4 text-center text-lg font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse"
+            className="flex items-center justify-center w-full min-h-[70px] !py-6 rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 text-center text-lg font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:min-h-[80px] sm:!py-8 sm:text-xl"
           >
             Registrarse en la casa
           </a>
@@ -70,7 +70,7 @@ export default function TutorialPage() {
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full rounded-full border-2 border-purple-500/50 bg-purple-900/30 px-6 py-4 text-center text-lg font-bold text-white backdrop-blur-sm transition-all duration-300 hover:border-purple-400 hover:bg-purple-800/40 hover:scale-105 active:scale-95"
+            className="flex items-center justify-center w-full min-h-[70px] !py-6 rounded-full border-2 border-purple-500/50 bg-purple-900/30 px-6 text-center text-lg font-bold text-white backdrop-blur-sm transition-all duration-300 hover:border-purple-400 hover:bg-purple-800/40 hover:scale-105 active:scale-95 sm:min-h-[80px] sm:!py-8 sm:text-xl"
           >
             Volver al grupo
           </a>
