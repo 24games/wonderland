@@ -30,7 +30,7 @@ export default function Home() {
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
             rel="noopener noreferrer"
-            className="h-auto w-[90%] max-w-md rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 py-8 text-center text-xl font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-8 sm:py-8 sm:text-2xl"
+            className="flex items-center justify-center w-[90%] max-w-md min-h-[80px] !py-6 rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 text-2xl font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-8 sm:min-h-[100px] sm:!py-8 sm:text-3xl"
           >
             QUIERO ENTRAR AHORA
           </a>
