@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import heroBg from "./hero-bg.jpg";
-
 export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
@@ -14,14 +11,19 @@ export default function Home() {
     <main className="w-full">
       {/* DOBRA 1: HERO SECTION - Tela Cheia */}
       <section className="relative h-[100dvh] w-full overflow-hidden">
-        {/* Background Image */}
-        <Image
-          src={heroBg}
-          alt="Background Hero"
-          fill
-          priority
-          placeholder="blur"
-          className="object-cover object-center -z-10"
+        {/* Background Image - DEBUG */}
+        <img 
+          src="/assets/hero-bg.jpg" 
+          alt="DEBUG IMAGE"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: 0
+          }}
         />
         {/* Overlay escuro para melhorar contraste do botão */}
         <div className="absolute inset-0 bg-black/30 z-[1]"></div>
