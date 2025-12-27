@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import heroBg from "./hero-bg.jpg";
 
 export default function Home() {
   // Array de imagens do carrossel
@@ -15,12 +16,12 @@ export default function Home() {
       <section className="relative h-[100dvh] w-full overflow-hidden">
         {/* Background Image */}
         <Image
-          src="/assets/hero-bg.jpg"
-          alt="Background Cassino"
+          src={heroBg}
+          alt="Background Hero"
           fill
           priority
-          className="object-cover object-center z-0"
-          quality={100}
+          placeholder="blur"
+          className="object-cover object-center -z-10"
         />
         {/* Overlay escuro para melhorar contraste do botão */}
         <div className="absolute inset-0 bg-black/30 z-[1]"></div>
