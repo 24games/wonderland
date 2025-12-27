@@ -3,8 +3,8 @@
 export default function Home() {
   // Array de imagens do carrossel
   const winImages = [
-    "/assets/prints/print1certo.jpeg",
-    "/assets/prints/print2.jpeg",
+    "/assets/prints/print1certo.webp",
+    "/assets/prints/print2.webp",
   ];
 
   return (
@@ -46,7 +46,7 @@ export default function Home() {
       {/* DOBRA 2: PROVA SOCIAL - Carrossel */}
       <section className="min-h-screen w-full bg-gradient-to-b from-[#2a0e45] to-[#000000] py-10">
         {/* Headline */}
-        <h2 className="mt-20 mb-8 text-center text-3xl font-bold text-white sm:mt-24 md:text-4xl">
+        <h2 className="mt-24 mb-12 text-center text-3xl font-bold text-white sm:mt-28 sm:mb-16 md:text-4xl">
           Resultados de los miembros
         </h2>
 
