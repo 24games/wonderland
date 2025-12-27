@@ -20,15 +20,17 @@ export default function Home() {
         >
           {/* Overlay escuro para melhorar contraste do botão */}
           <div className="absolute inset-0 bg-black/30"></div>
+          {/* Gradiente na parte inferior para transição suave */}
+          <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
         </div>
 
-        {/* Botão CTA Centralizado */}
-        <div className="relative z-10 flex h-full w-full items-center justify-center px-4">
+        {/* Botão CTA na transição roxo/preto */}
+        <div className="absolute bottom-0 left-0 right-0 z-10 flex w-full items-end justify-center px-4 pb-8">
           <a
             href="https://chat.whatsapp.com/JaP7XOHnvB01IqjB4XsK6y"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-3/4 max-w-sm rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-6 py-5 text-center text-lg font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-8 sm:py-6 sm:text-xl"
+            className="w-full max-w-lg rounded-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-8 py-6 text-center text-2xl font-bold text-purple-900 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/50 active:scale-95 animate-pulse sm:px-10 sm:py-7 sm:text-3xl"
           >
             QUIERO ENTRAR AHORA
           </a>
