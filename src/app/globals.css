@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Animação de pulso com fadeout elegante para botões WhatsApp */
+@keyframes whatsapp-pulse {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  50% {
+    opacity: 0.9;
+    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+}
+
+.animate-whatsapp-pulse {
+  animation: whatsapp-pulse 2s ease-in-out infinite;
+}
