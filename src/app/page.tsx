@@ -55,7 +55,7 @@ export default function Home() {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 w-[90%] max-w-md min-h-[80px] !py-6 rounded-full bg-[#25D366] px-6 text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[#25D366]/50 hover:bg-[#20BA5A] active:scale-95 animate-gentle-pulse sm:px-8 sm:min-h-[100px] sm:!py-8 sm:text-3xl"
+            className="flex items-center justify-center gap-3 w-full max-w-md min-h-[70px] !py-6 rounded-full bg-[#25D366] px-6 text-lg font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[#25D366]/50 hover:bg-[#20BA5A] active:scale-95 animate-gentle-pulse sm:min-h-[80px] sm:!py-8 sm:text-xl whitespace-nowrap"
           >
             <WhatsAppIcon />
             QUIERO ENTRAR AHORA
